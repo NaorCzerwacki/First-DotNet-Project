@@ -1,0 +1,22 @@
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.deps.json
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.runtimeconfig.json
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.runtimeconfig.dev.json
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.dll
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.csprojAssemblyReference.cache
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.csproj.CoreCompileInputs.cache
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.AssemblyInfoInputs.cache
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.AssemblyInfo.cs
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.pdb
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.dll
+C:\Users\naor's yoga-book\source\repos\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.pdb
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.deps.json
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.runtimeconfig.json
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.runtimeconfig.dev.json
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.dll
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\bin\Debug\netcoreapp2.0\Restuseat.pdb
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.csprojAssemblyReference.cache
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.csproj.CoreCompileInputs.cache
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.AssemblyInfoInputs.cache
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.AssemblyInfo.cs
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.dll
+C:\Users\naor\Dropbox\Project\RestuseatSolution\Restuseat\obj\Debug\netcoreapp2.0\Restuseat.pdb

@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/site-logo-icon.png">
+    <title>Main Site</title>
+<!------ Start of CSS Callout -->
+    <link href="css/Bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/Bootstrap/bootstrap-reboot.css" rel="stylesheet" type="text/css">
+    <link href="css/Bootstrap/bootstrap-grid.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.3//css/all.css" rel="stylesheet" type="text/css">
+<!------ End of CSS Callout -->
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/jScript.js"></script>
+    <script type="text/javascript" src="js/date_time.js"></script>
+</head>
+
+<body ondragstart="return false;" ondrop="return false;">
+    <div>
+<!---------- Start of Navigation-->
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation" style="background: #034b89; border: 1px solid #abb5ff;">
+                    <span class="navbar-toggler-icon" style="black"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                    <ul id="upperMenu" class="navbar-nav mr-auto" style="cursor: pointer;">
+                        <li class="nav-item" id="upperHome">
+                            <a class="nav-link" style="padding-top: 4px; margin-top: 4px;">
+                                Home 
+                                <span class="sr-only"></span>
+                            </a>
+                        </li>
+                        <li class="nav-item" id="upperLiveMap">
+                            <a class="nav-link">Live Map</a>
+                        </li>
+                        <li class="nav-item" id="upperMemberList">
+                            <a class="nav-link">Member List</a>
+                        </li>
+                        <li class="nav-item" id="upperBlueprint">
+                            <a class="nav-link">Blueprint</a>
+                        </li>
+                        <li class="nav-item" id="upperSettings" style="padding-bottom: 10px; border-bottom: 2px solid #034b89">
+                            <a class="nav-link">Settings</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="navbar-nav navbar-right" style="float: right;">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fas fa-reply"></i> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+<!---------- End of Navigation-->
+<!---------- Start of Header-->
+        <header id="header" style="margin-top: 49px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 Create-btn-fix" id="headerFix">
+                        <h1>Welcome <small style="color: #cccccc; font-variant: small-caps;">USER</small></h1>
+                    </div>
+
+                </div>
+                
+            </div>
+        </header>
+<!---------- End of Header-->
+<!---------- Start of Main-->
+        <section id="main">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Side Bar -->
+                    <div class="col-md-3" style="max-width: 120px; padding: 0px; border-radius: 0px; position: fixed; z-index: 999; top: 49px;">
+                        <div class="list-group">
+                            <div style="background: #333333; height: 61px;">
+                                <img src="img/logos.png" width="120" style="margin-top: 15px;">
+                            </div>
+                            <ul style="padding-left: 0px;">
+                                <li id="sideHome">
+                                    <a class="list-group-item list-group-item-action" style="border-radius: 0;">
+                                        <div class="ff-hide"><i class="fa fa-home"></i></div>Home
+                                    </a>
+                                </li>
+                                <li id="sideLiveMap">
+                                    <a class="list-group-item list-group-item-action" style="border-radius: 0;">
+                                        <div class="ff-hide"><i class="far fa-caret-square-right"></i></div>Live Map
+                                    </a>
+                                </li >
+                                <li id="sideMemberList">
+                                    <a class="list-group-item list-group-item-action" style="border-radius: 0;">
+                                        <div class="ff-hide"><i class="fa fa-users"></i></div>Member List
+                                    </a>
+                                </li>
+                                <li id="sideBlueprint">
+                                    <a class="list-group-item list-group-item-action" style="border-radius: 0;">
+                                        <div class="ff-hide"><i class="fas fa-tools"></i></div>Blueprint
+                                    </a>
+                                </li>
+                                <li id="sideSettings">
+                                    <a class="list-group-item list-group-item-action" style="border-radius: 0;">
+                                        <div class="ff-hide"><i class="fa fa-cog"></i></div>Settings
+                                    </a>
+                                </li>
+                                <li style="background: rgb(248, 249, 250); height: -webkit-fill-available;">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End of Side Bar -->
+                    <div id="overview" class="col-md-11">
+                        <!-- Website Overview -->
+                        <div class="card" id="contentBoxes">
+                            <!-- Home -->
+                            <div id="home">
+                                <div class="card-header main-color-bg">
+                                    Notes for the Day
+                                </div>
+                                <div class="card-deck">
+                                    <div style="margin: 5px 10px 0px">
+                                        <p>
+                                            Today is a holiday, lots of work is expected, remember to brief new employees.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="card-header main-color-bg">
+                                    Statistics
+                                </div>
+                                <div class="card-deck" style="max-width: 1000px">
+                                    <div class="card">
+                                        <div class="card-body dash-box">
+                                            <h5 class="card-title">
+                                                <h2>3/30</h2>
+                                            </h5>
+                                            <p class="card-text">
+                                                <span><h5>Tables<br>Taken/Free</h5></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body dash-box">
+                                            <h5 class="card-title">
+                                                <h2>7</h2>
+                                            </h5>
+                                            <p class="card-text">
+                                                <span><h5>Guests Sitting</h5></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body dash-box">
+                                            <h5 class="card-title">
+                                                <h2>7</h2>
+                                            </h5>
+                                            <p class="card-text">
+                                                <span><h5>Guests Set So Far </h5></span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card" style="border: 1px solid #dadee2; margin-top: 20px;">
+                                    <div class="card-header main-color-bg">
+                                        Curent Sitting
+                                    </div>
+                                    <div class="card-deck">
+                                        <table class="table table-striped table-hover table-marging-fix">
+                                            <thead>
+                                                <tr style="width: 100%;">
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Time of Sitting</th>
+                                                    <th scope="col">Number of Sitters</th>
+                                                    <th scope="col">Table</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row" data-label="Name">John</td>
+                                                    <td data-label="Time of Sitting">DD/MM/YYYY, HH:MM</td>
+                                                    <td data-label="Number of Sitters">3</td>
+                                                    <td data-label="Table">22</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div class="card" style="border: 1px solid #dadee2; margin-top: 20px;">
+                                    <div class="card-header main-color-bg">
+                                        Last Sitted
+                                    </div>
+                                    <div class="card-deck">
+                                        <table class="table table-striped table-hover table-marging-fix">
+                                            <thead>
+                                                <tr style="width: 100%;">
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Time of Sitting</th>
+                                                    <th scope="col">Number of Sitters</th>
+                                                    <th scope="col">Table</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="row" data-label="Name">John</td>
+                                                    <td data-label="Time of Sitting">DD/MM/YYYY, HH:MM</td>
+                                                    <td data-label="Number of Sitters">3</td>
+                                                    <td data-label="Table">22</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Live Map -->
+                            <div id="liveMap">
+                                <div class="card-header main-color-bg">
+                                    LiveMap
+                                </div>
+                                <div class="card-header" style=" background: #c6c6c6">
+                                    <span style="position: relative; left: 0px;">&nbsp;</span>
+                                    <div style="border: 1px solid #a5a5a5; height: 30px; line-height: 25px; width: 100px; float: left; border-radius: 10px 0px 0px 10px; padding: 1px 2px 2px 5px; background: #e6e6e6;">Click to See</div>
+                                    <div style="float: left;">
+                                        <span class="bpMenu">                                        
+                                            <button id="addTable" style="">Floor</button>
+                                            <button id="addTable" style="">Lounge</button>
+                                            <button id="addTable" style="margin-left: -6px">Bar</button>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="card-body" style="background: #ffffff; height: 100%; max-height: 716px; width: 100%;">
+                                    <canvas id="liveCanvas">
+                                    </canvas>
+                                </div>
+                            </div>
+                            <!-- Member List -->
+                            <div id="memberList">
+                                <div class="card-header main-color-bg">
+                                    Member List
+                                    <div class="" style="float: right; color: black;">
+                                        <a class="btn btn-light btn-btnfix" type="button" data-toggle="modal" data-target="#addMember" style="cursor: pointer; margin-top: -6px;">Add New Member</a>
+                                    </div>
+                                </div>
+                                <div class="card-body " style="background: #ffffff; margin-bottom: 40px;">
+                                    <table class="table table-striped table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Id</th>
+                                                <th scope="col">Name</th>
+                                                <th scope="col">Phone</th>
+                                                <th scope="col">Dates</th>
+                                                <th scope="col">Allergies</th>
+                                                <th scope="col">VIP</th>
+                                                <th scope="col">Kid Chair</th>
+                                                <th scope="col">Notes</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td scope="row" data-label="Id">1</td>
+                                                <td data-label="Name">John Doe</td>
+                                                <td data-label="Phone">050-123-4567</td>
+                                                <td data-label="Dates">
+                                                    Birthday: DD/MM/YY
+                                                </td>
+                                                <td data-label="Allergies">Mango</td>
+                                                <td data-label="VIP">
+                                                    <span>Yes</span>
+                                                </td>
+                                                <td data-label="kidChair">
+                                                    <span>2</span>
+                                                </td>
+                                                <td data-label="Notes">1 free cup of coffe</td>
+                                                <td>
+                                                    <a class="btn btn-light btn-btnfix" type="button" data-toggle="modal" data-target="#editMember" style="cursor: pointer;"><i class="far fa-edit"></i></a>
+                                                    <a class="btn btn-danger btn-btnfix" href="#" onclick="return confirm('Are you sure you want to delete this member?');"><i class="fas fa-trash"></i></a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- Blueprint -->
+                            <div id="blueprint">
+                                <div class="card-header main-color-bg">
+                                    <span style="position: relative; left: 0px;">Blueprint</span>
+                                </div>
+                                <div class="card-header" style=" background: #c6c6c6">
+                                    <span style="position: relative; left: 0px;">&nbsp;</span>
+                                    <div style="border: 1px solid #a5a5a5; height: 30px; line-height: 25px; width: 100px; float: left; border-radius: 10px 0px 0px 10px; padding: 1px 2px 2px 5px; background: #e6e6e6;">Click to Add</div>
+                                    <div style="float: left;">
+                                        <span class="bpMenu">                                        
+                                            <button id="addTable" style=""><img src="img/tableIconTransparent.png" width="25" style="margin-top: -3px"> Table</button>
+                                            <button id="addChair"><img src="img/chair%20icon.png" height="23" style="margin-top: -3px"> Chair</button>
+                                            <button id="addBar" style="margin-left: -6px"><i class="fas fa-glass-martini-alt"></i> Bar</button>
+                                            <button id="addFloor"><i class="fa fa-edit"></i> Add Floor</button>
+                                        </span>
+                                    </div>
+                                    <div>
+                                    </div>
+                                </div>
+                                <div class="card-body " style="background: #ffffff; height: 100%; max-height: 716px; width: 100%;">
+                                    <canvas id="bpCanvas">
+                                    </canvas>
+                                </div>
+                            </div>
+                            <!-- Settings -->
+                            <div id="settings">
+                                <div class="card-header main-color-bg">
+                                    Settings
+                                </div>
+                                <div class="card-body" style="background: #ffffff;">
+                                    <div class="col-md-9">
+                                        <form>
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Personal Information</h5>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div class="form-group">
+                                                    <label><strong>User Name</strong></label><br>
+                                                    <span>USER</span>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label><strong>Mail Address</strong></label>
+                                                    <input type="text" class="form-control" placeholder="Mail Address">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label><strong>Notes for the Day</strong></label>
+                                                    <textarea class="form-control" placeholder="Insert Notes"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">test</h5>
+                                            </div>
+                                            <div class="modal-f ooter">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="submit" class="btn btn-primary">Save Changes</button>
+                                            </div>
+                                        </form>
+                                        <div class="dropdown create">
+                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">dropdown test</button>
+                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                <a class="dropdown-item" type="button" data-toggle="modal" data-target="#addItem" style="cursor: pointer;">Add Item</a>
+                                                <a class="dropdown-item" type="button" data-toggle="modal" data-target="#assignDelivery" style="cursor: pointer;">Assign Delivery</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!---------- End of Main-->
+<!---------- Start of Footer-->
+        <footer id="footer">
+            <div>
+                <span id="date_time"></span>
+                <script type="text/javascript">window.onload = date_time('date_time');</script>
+            </div>
+            <div style="float: left;"><p>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Copyright <a href="https://il.linkedin.com/pub/naor-czerwacki/b9/a92/150" style="color: white;" target="_blank" onMouseOver="this.style.color='#e2a865'" onMouseOut="this.style.color='white'">Naor Czerwacki</a>, &copy; 2018</p></div>            
+        </footer>
+<!---------- End of Footer-->
+<!---------------------------- Modals -------------------->
+            <!-- addMember -->
+        <div class="modal fade" id="addMember" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Add New Member</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label><strong>ID</strong></label>
+                                <span>will be assigned on creation</span>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Name</strong></label>
+                                <input type="text" class="form-control" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Phone</strong></label>
+                                <input type="text" class="form-control" placeholder="Enter Phone">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Dates</strong></label>
+                                <textarea class="form-control" placeholder="Enter Special Dates"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Allergies</strong></label><br>
+                                <textarea class="form-control" placeholder="Enter Allergies"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>VIP</strong></label><br>
+                                <select>
+                                    <option value="vipNo">No</option>
+                                    <option value="vipYes">Yes</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Kid Chair</strong></label><br>
+                                <select>
+                                    <option value="zero">0</option>
+                                    <option value="one">1</option>
+                                    <option value="two">2</option>
+                                    <option value="more">+3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Notes</strong></label><br>
+                                <textarea class="form-control" placeholder="Enter Notes"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-f ooter">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary">Create Member</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+            <!-- Assign Delivery -->
+        <div class="modal fade" id="assignDelivery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel2">Assign Delivery</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label><strong>Delivery Number</strong></label>
+                                <input type="text" class="form-control" placeholder="Delivery Request Number">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Assign Volunteer</strong></label><br>
+                                <select>
+                                    <option value="Mike M">Mike M</option>
+                                    <option value="Mike S">Mike S</option>
+                                    <option value="Liza">Liza</option>
+                                    <option value="John">John</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="modal-f ooter">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Assign</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!---------- ****************************************** -->
+            <!-- Edit Member -->
+        <div class="modal fade" id="editMember" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <form>
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Edit Member</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label><strong>ID</strong></label>
+                                <span>#</span>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Name</strong></label>
+                                <input type="text" class="form-control" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Phone</strong></label>
+                                <input type="text" class="form-control" placeholder="Enter Phone">
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Dates</strong></label>
+                                <textarea class="form-control" placeholder="Enter Special Dates"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Allergies</strong></label><br>
+                                <textarea class="form-control" placeholder="Enter Allergies"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>VIP</strong></label><br>
+                                <select>
+                                    <option value="vipNo">No</option>
+                                    <option value="vipYes">Yes</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Allergies</strong></label><br>
+                                <select>
+                                    <option value="zero">0</option>
+                                    <option value="one">1</option>
+                                    <option value="two">2</option>
+                                    <option value="more">+3</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><strong>Notes</strong></label><br>
+                                <textarea class="form-control" placeholder="Enter Notes"></textarea>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!---------- Start of JavaScript Libraries Callout -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/Bootstrap/bootstrap.js"></script>
+<!---------- End of JavaScript Libraries Callout -->
+    </div>
+</body>
+
+</html>

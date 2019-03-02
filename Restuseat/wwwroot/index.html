@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Wellcome</title>
+    <link rel="icon" href="img/site-logo-icon.png">
+    <!-- Start of CSS Callout -->
+    <link href="css/Bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/Bootstrap/bootstrap-reboot.css" rel="stylesheet" type="text/css">
+    <link href="css/Bootstrap/bootstrap-grid.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet" type="text/css">
+    <!-- End of CSS Callout -->
+
+    <style>
+        html {
+            height: 100%;
+        }
+        body {
+            width: 100%;
+            height: 100%;
+            background: url(img/alcohol-alcoholic-dinner-4224.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            min-width: 422px;
+        }
+
+        .wrapper {
+            width: 100%;
+            height: 100%;
+            background-color: #1f1f1f8f;            
+        }
+
+        header{
+            margin-bottom: 30px;
+        }
+        
+        .logo{
+            max-width: 471px; 
+            min-width: 240px;
+            width: 100%; 
+            height: auto;
+        }
+        
+        .logoDiv{
+            float: left;
+            width: 33%;
+        }    
+        
+        #buttonsInnerDiv{
+            margin: 70px 9% 0;
+            float: right;
+            width: 100%;
+            min-width: 363px;
+        }
+        
+        #buttonsOuterDiv{
+            float: right;
+            width: 67%;
+        }
+        
+        .buttonStyle{ 
+            float: right;
+            width: 180px;
+        }
+        
+        #button {
+            text-align: center;
+            color: white;
+            height: 53px;
+        }
+
+        button {
+            margin-bottom: 10px;
+            padding-top: 5px;
+            width: 160px;
+        }
+
+        h5 {
+            padding-top: 5px;
+            font-size: 20px;
+        }
+        
+        section{
+            width: 100%;
+            margin: 0 auto; 
+        }
+        
+        .container {
+            width: 100%;
+            height: 100%;
+            border: 1px solid #1f1f1f8f; 
+            background: #1f1f1f8f; 
+            border-radius: 10px; 
+            min-width: 265.5px;
+            padding: 30px 15px;
+            max-width: 500px;
+        }
+        
+        .container input{
+            border-radius: 0 0.25rem 0.25rem 0;
+            float: left;
+            width: 89%;
+            margin-bottom: 10px;
+        }
+        
+        .container i{
+            float: left;
+            background-color: rgba(178, 178, 178, 0.54);
+            color: white;
+            height: 38px;
+            text-align: center;
+            width: 40px;
+            vertical-align: middle;
+            border-radius: 0.25rem 0 0 0.25rem;
+            font-size: 25px;
+            line-height: 38px;                
+        }
+        
+        #login{
+            display: block;
+            width: 100%;
+        }
+      
+        #register{
+            display: none;
+            width: 100%;
+            margin-top: -5px;
+        }
+        
+        #register > form > h10{
+            color: white;
+            font-size: 18px;
+            font-family: inherit;
+        }  
+        
+        #register .form-group{
+            margin-top: 5px;
+        }
+        
+        #forgot{
+            display: none;
+            width: 100%;
+        }
+        
+        #forgotLink{
+            float: right;
+        }
+
+        #forgotLink > h1{
+            color: white;
+            font-size: 20px;
+            cursor: pointer;            
+        }
+        #forgot > form > h10{
+            color: white;
+            font-size: 18px;
+            font-family: inherit;
+        }  
+        
+        .form-group {
+            margin-bottom: 10px;
+        }        
+    </style>
+</head>
+<body ondragstart="return false;" ondrop="return false;">
+    <div class="wrapper">
+        <header>
+            <div class="logoDiv">
+                <img class="logo" src="img/logos.png">
+            </div>
+            <div id="buttonsOuterDiv">
+                <div id="buttonsInnerDiv">
+                    <div class="col-md-4 login-wrap buttonStyle">
+                        <div id="button">
+                            <button id="regtisterBtn" class="btn btn-primary" type="button">
+                               <h5>Register</h5>
+                           </button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 login-wrap buttonStyle">
+                        <div id="button">
+                            <button id="loginBtn" class="btn btn-primary" type="button">
+                               <h5>Login</h5>
+                           </button>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div style="clear: both"></div>
+        </header>
+        <section>
+            <div class="container">
+                <!-- Login field -->
+                <div id="login">
+                    <form action="">
+                        <div class="form-group">
+                            <i class="far fa-envelope"></i>
+                            <input type="text" class="form-control" placeholder="Enter E-mail" required="required">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-lock" style="margin: 10px 0 20px;"></i> 
+                            <input type="password" class="form-control" placeholder="Password" required="required" style="margin: 10px 0 20px;">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" style="margin: 0 auto;">Login</button>
+                        <div style="margin: 3px 0 7.5px ;"><a id="forgotLink"><h1>forgot Password?</h1></a></div>
+                    </form>
+                </div>
+                <!-- END Login field -->
+                <!-- Register field -->
+                <div id="register">
+                    <form action="">
+                        <h10>Enter Dispaly Name</h10>
+                        <div class="form-group">
+                            <i class="fas fa-user"></i>
+                            <input type="text" class="form-control" placeholder="Enter Display Name" required="required">
+                        </div>
+                        <h10>Enter E-mail Address</h10>
+                        <div class="form-group">
+                            <i class="far fa-envelope"></i>
+                            <input type="text" class="form-control" placeholder="Enter E-mail" required="required">
+                        </div>
+                        <h10>Enter Password</h10>
+                        <div class="form-group">
+                            <i class="fas fa-unlock"></i>
+                            <input type="password" class="form-control" placeholder="Password" required="required">
+                        </div>
+                        <h10>Enter Same Password for Confirmation</h10>
+                        <div class="form-group">
+                            <i class="fas fa-lock"></i>
+                            <input type="password" class="form-control" placeholder="Confirm Password" required="required">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" style="margin: 0 auto">Register</button>
+                    </form>
+                </div>
+                <!-- END Register field -->                
+                <!-- forgot field -->
+                <div id="forgot">
+                    <form action="">
+                        <h10>Enter E-mail Address</h10>
+                        <div class="form-group" style="margin-top: 5px;">
+                            <i class="far fa-envelope" style="margin: 10px 0 20px;"></i>
+                            <input type="text" class="form-control" placeholder="Enter E-mail" required="required" style="margin: 10px 0 20px;">
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" style="margin: 0 auto">Remind Me</button>
+                    </form>
+                </div>
+                <!-- END forgot field -->
+            </div>
+        </section>
+        <footer id="footer">
+            <p>Copyright &copy; Naor Czerwacki, 2018. All rights reserved.</p>
+        </footer>
+        <!-- Start of JavaScript Libraries Callout -->
+        <script src="js/jquery-3.3.1.slim.js"></script>
+        <script src="js/Bootstrap/bootstrap.js"></script>
+        <!-- End of JavaScript Libraries Callout -->
+        <script>
+            $(document).ready(function(){
+
+                $("#loginBtn").on( "click", function() {
+                    $("#register").css({"display": "none"});
+                    $("#login").css({"display": "block"});
+                    $("#forgot").css({"display": "none"});
+                });
+
+                $("#regtisterBtn").on( "click", function() {
+                    $("#register").css({"display": "block"});
+                    $("#login").css({"display": "none"});
+                    $("#forgot").css({"display": "none"});
+                });
+
+                $("#forgotLink").on( "click", function() {
+                    $("#register").css({"display": "none"});
+                    $("#login").css({"display": "none"});
+                    $("#forgot").css({"display": "block"});
+                });
+            });//END READY
+        </script>
+    </div>
+</body>
+</html>
